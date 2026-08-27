@@ -1,0 +1,94 @@
+
+
+.profil-loading {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.profil-container {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.profil-title {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #1e293b;
+  font-size: 1.5rem;
+}
+
+.profil-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.profil-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profil-form label {
+  font-weight: 600;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.profil-form input[type="text"],
+.profil-form input[type="tel"],
+.profil-form select,
+.profil-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1.0rem;
+  font-family: inherit;
+  outline: none;
+  transition: all 0.2s ease;
+  background-color: #ffffff;
+}
+
+
+.profil-form input:focus,
+.profil-form select:focus,
+.profil-form textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.form-row-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.profil-form textarea {
+  min-height: 90px;
+  resize: vertical;
+  font-size: 0.95rem;
+}
+
+.profil-submit-btn {
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.profil-submit-btn:hover {
+  background-color: #2563eb;
+}

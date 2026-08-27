@@ -1,0 +1,176 @@
+.sepet-sayfasi {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sepet-baslik-alani {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.restoran-etiket {
+  background-color: #ffeaa7;
+  color: #d63031;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.sepet-icerik-yapisi {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+
+.sepet-urunler-listesi {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+}
+
+.sepet-urun-kart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.sepet-urun-kart:last-child {
+  border-bottom: none;
+}
+
+.sepet-urun-detay h4 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+}
+
+.sepet-urun-fiyat {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+
+.sepet-adet-kontrol {
+  display: flex;
+  align-items: center;
+  background: #f1f2f6;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.adet-btn {
+  background: white;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sepet-adet-sayi {
+  margin: 0 15px;
+  font-weight: bold;
+  min-width: 15px;
+  text-align: center;
+}
+
+.sepet-urun-toplam {
+  font-weight: bold;
+  font-size: 1.1rem;
+  min-width: 80px;
+  text-align: right;
+}
+
+
+.sepet-ozet-karti {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  height: fit-content;
+}
+
+.ozet-satir {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  color: #555;
+}
+
+.ozet-satir.toplam {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2d3436;
+  margin-top: 15px;
+}
+
+.siparisi-onayla-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.siparisi-onayla-btn:hover {
+  background-color: #e03333;
+}
+
+.sepeti-temizle-btn {
+  background: none;
+  border: 1px solid #ccc;
+  color: #666;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.sepeti-temizle-btn:hover {
+  background: #f8f9fa;
+  color: #333;
+}
+
+
+.sepet-bos-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.sepet-bos-ikon {
+  font-size: 5rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.kesfet-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}

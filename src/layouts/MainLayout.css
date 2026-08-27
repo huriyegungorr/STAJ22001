@@ -1,0 +1,39 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.layout-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: background 0.2s;
+}
+.logout-btn:hover {
+  background-color: #e03333;
+}
