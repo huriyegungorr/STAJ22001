@@ -118,7 +118,7 @@ export default function MenuYonetimi({ menuler, yenile, restoranId }) {
   return (
     <section className="menu-yonetimi-section">
       <div className="menu-header-bar">
-        <h2>🍔 Menü Yönetimi ({menuler.length} Ürün)</h2>
+        <h2> Menü Yönetimi ({menuler.length} Ürün)</h2>
         <div className="kategori-filtre-alani">
           <button 
             onClick={() => setSelectedKategoriId('Tumu')} 
